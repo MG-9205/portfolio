@@ -12,7 +12,7 @@ Welcome to the repository for my personal portfolio website. This website serves
 
 ## Demo
 
-You can visit the live website at [https://www.yourportfolio.com]
+You can visit the live website at [https://portfolio-k5p94cx11-manishs-projects-0b89f7d2.vercel.app/]
 
 
 ## Technologies Used
@@ -31,7 +31,7 @@ You can visit the live website at [https://www.yourportfolio.com]
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/portfolio.git`
+1. Clone the repository: `https://github.com/MG-9205/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
 3. Open `index.html` in your preferred web browser.
 
