@@ -1,0 +1,172 @@
+:root {
+    --var1: #2563eb;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    padding-top: 5rem;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    background-color: var(--var1);
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    border-bottom-left-radius: 2rem;
+    color: white;
+    z-index: 999;
+  }
+  header h1 {
+    font-size: 1.7rem;
+    margin-left: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  nav a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 300;
+  }
+  .moblie-icon {
+    display: none;
+    padding-right: 20px;
+  }
+  .moblie-menu {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    transition: all linear 0.5s;
+    transform: translateX(100%);
+    height: fit-content;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--var1);
+  }
+  .moblie-menu_ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 20px;
+  }
+  
+  .show {
+    display: none;
+  }
+  .mycode{
+      
+    display: flex;  
+    padding-top: 5rem;
+    margin-left: 6rem;
+    gap: 5px;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 5rem 8rem;
+    }
+    .project h1{
+        margin-bottom: 25px;
+    }
+    span{
+        color: gray;
+        font-size: 1rem;
+    }
+    .project p{
+        margin-top: 5px;
+        font-size: 1.2rem;
+        color: grey;
+    }
+    .button1 {
+    background-color: var(--var1);
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 300ms linear;
+  }
+  .button2 {
+    border: 2px solid var(--var1);
+    background: transparent;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    color: var(--var1);
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 300ms linear;
+    margin-left: 1rem;
+  }
+  .button2 a{
+    color: inherit;
+  }
+  hr{
+    margin-top: 4rem;
+  }
+  footer{
+    width: 100%;
+    height: 6rem;
+    background-color: var(--var1);
+    border-top-right-radius:2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding-top: 1rem;
+
+  }
+  .social{
+    color: white;
+    transform: scale(1.5);
+    font-weight: bolder;
+  }
+  .social-link{
+    font-size: 2rem;
+    display: flex;
+    gap: 2rem;
+    color: white;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  @media screen and (max-width: 900px) {
+    html{font-size: 75%;}
+    header {
+      padding: 0 0 0 0.5rem;
+    }
+    .moblie-icon {
+      display: block;
+    }
+    .menu {
+      display: none;
+    }
+    .project{
+        margin: 3rem 3rem;
+    }
+  }
